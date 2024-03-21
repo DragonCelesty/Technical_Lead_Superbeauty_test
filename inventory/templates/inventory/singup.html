@@ -4,7 +4,7 @@
 {% block content %}
     <div class="row">
         <div class="col-11 col-md-4 mx-auto mt-5">
-            <h1>Sing Up</h1>
+            <h1>Resgistro</h1>
             {% if form.errors %}
                  {% for field in form %}
                     {% for error in field.errors %}
@@ -23,10 +23,10 @@
             <form method="post">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <button class="btn btn-primary" type="submit">Sing Up</button>
+                <button class="btn btn-primary" type="submit">Registrarse</button>
             </form>
             <div class="pt-3">
-                <small class="text-muted">Alreeady have an account? <a href="{% url 'login' %}" class="ml-2">Sing In</a></small>
+                <small class="text-muted">¿Ya tienes una cuenta? <a href="{% url 'login' %}" class="ml-2">Inicio de Sesion</a></small>
             </div>
         </div>
     </div>

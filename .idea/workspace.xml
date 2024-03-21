@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="79418ac9-64c5-48cf-a172-9bfa478ad0b3" name="Changes" comment="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/templates/inventory/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/templates/inventory/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/templates/inventory/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/templates/inventory/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/templates/inventory/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/templates/inventory/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/templates/inventory/singup.html" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/templates/inventory/singup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710981037358</updated>
-      <workItem from="1710981181895" duration="28289000" />
+      <workItem from="1710981181895" duration="30595000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros">
       <option name="closed" value="true" />
@@ -97,7 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711016150725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros">
+      <option name="closed" value="true" />
+      <created>1711016394673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016394673</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros">
+      <option name="closed" value="true" />
+      <created>1711016413465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016413465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

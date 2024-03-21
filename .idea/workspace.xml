@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79418ac9-64c5-48cf-a172-9bfa478ad0b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/superbeautyassesment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/migrations/0003_alter_equipment_rental_end_date_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/templates/inventory/singup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superbeautyassesment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superbeautyassesment/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superbeautyassesment/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superbeautyassesment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/superbeautyassesment/wsgi.py" afterDir="false" />
+    <list default="true" id="79418ac9-64c5-48cf-a172-9bfa478ad0b3" name="Changes" comment="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +87,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710981037358</updated>
-      <workItem from="1710981181895" duration="27814000" />
+      <workItem from="1710981181895" duration="28289000" />
     </task>
+    <task id="LOCAL-00001" summary="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros">
+      <option name="closed" value="true" />
+      <created>1711016150725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016150725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba tecnica para Technical Lead Superbauty Delvis Cisneros" />
   </component>
 </project>

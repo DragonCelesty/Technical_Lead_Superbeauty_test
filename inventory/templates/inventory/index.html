@@ -1,0 +1,15 @@
+{% extends 'inventory/base.html' %}
+{% block content %}
+<div>
+    <div class="row">
+        <div class="col-sm-11 col-md-4 mx-auto mt-5">
+            <h1 class="fw-light">Seguimiento y gestión de sus equipos</h1>
+            <p class="fw-light">Mantenga en seguimiento sus equipos y vea suss fechas de asignacion, entrega y vencimiento de alquiler</p>
+
+            <div>
+                <a href="{% url 'dashboard' %}" class="btn btn-primary">¡Empieza ya!</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

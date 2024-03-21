@@ -1,0 +1,66 @@
+{% extends 'inventory/base.html' %}
+
+{%  block content %}
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto mt-5">
+            <table class="table table-hover table-striped">
+                <thead class="table-primary">
+                <tr>
+                    <th scope="col">Referencia</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Procesador</th>
+                    <th scope="col">Memoria</th>
+                    <th scope="col">Disco</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Fecha de Asignacion</th>
+                    <th scope="col">Fecha de Entrega</th>
+                    <th scope="col">Expiracion de alquiler</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                    {% if user_equipments|length == 0 %}
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td></td>
+                        </tr>
+                    {% endif %}
+                {% for item in user_equipments %}
+                    <tr>
+                        <td >{{ item.equipment.reference }}</td>
+                        <td >{{ item.equipment.brand.name }}</td>
+                        <td >{{ item.equipment.processor }}</td>
+                        <td >{{ item.equipment.memory }}</td>
+                        <td >{{ item.equipment.disk }}</td>
+                        <td >{{ item.equipment.type.name }}</td>
+                        <td >{{ item.assignment_date }}</td>
+                        <td >{{ item.delivery_date }}</td>
+                        {% if item.rental_expired %}
+                                <td class="text-danger">{{ item.equipment.rental_end_date }}</td>
+                            {% else %}
+                               {% if item.equipment.rental_end_date %}
+                                    <td>{{ item.equipment.rental_end_date  }}</td>
+                                   {% else %}
+                                    <td></td>
+                               {% endif %}
+                            {% endif %}
+                        <td >{% if item.rental_expired %}
+                            <span class="text-primary">El alquiler a finalizado</span>
+
+                        {% endif %}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock content %}
